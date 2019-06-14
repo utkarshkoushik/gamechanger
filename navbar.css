@@ -1,0 +1,7 @@
+.navbar{
+    background-color:rgba(0,0,0,0.4);
+}
+#navbardrop{
+    border-radius:50%;
+    text-align: center;
+}

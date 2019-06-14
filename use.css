@@ -1,0 +1,82 @@
+body {
+    background: #f2f2f2;
+    -webkit-perspective: 600px;
+  }
+  
+  .card {
+    background: #e1d4c0;
+    color: #222222;
+    display: flex;
+    flex-flow: column;
+    height: 5in;
+    justify-content: space-between;
+    margin: 75px auto;
+    position: relative;
+    width: 5in;
+    -webkit-transform: rotate3d(1, 1, -1, 25deg);
+    box-shadow: -4px 8px 10px #564529;
+  }
+  .card > * {
+    text-shadow: 0px 2px 3px #c5ad86;
+  }
+  .card::after {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/bone.jpg");
+    background-size: cover;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 6pt 12pt 0 12pt;
+  }
+  .top .top-right {
+    text-align: center;
+  }
+  .top .top-right .firm {
+    text-transform: uppercase;
+    font-size: 10pt;
+  }
+  .top .top-right .department {
+    font-size: 8pt;
+  }
+  
+  .middle {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+  .middle .name span {
+    text-transform: uppercase;
+  }
+  .middle .title {
+    font-size: 8pt;
+  }
+  
+  .bottom {
+    display: flex;
+    flex-flow: column;
+    font-size: 8pt;
+    padding: 0 0 8pt 0;
+    text-align: center;
+  }
+  
+  .scene {
+    color: #222222;
+    margin: 100px auto;
+    text-shadow: 0px 2px 2px #cccccc;
+    width: 400px;
+  }
+  .scene p {
+    line-height: 1.65em;
+    text-align: justify;
+  }
+  

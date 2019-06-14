@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Navbar</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel='stylesheet' href='navbar.css'>
+    </head>
+    <body>
+        <nav class="mb-1 navbar navbar-expand-lg navbar-dark orange lighten-1">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcsaUulV23BqrxoDEIj-D7C1tz2U8wLMCmjCbi9eRsYxlp4je8"
+                    alt="LOGO" style="width:50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+                aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item" onclick="highlight(this)">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item" onclick="highlight(this)">
+                        <a class="nav-link" href="#">RECENTS</a>
+                    </li>
+                    <li class="nav-item" onclick="highlight(this)">
+                        <a class="nav-link" href="#">SCHEDULE POST</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJ_xjHIEHFLZfUV7lfksCLV0oMFtV6dDeTYNC9WUVFYiKRYOvNQ"
+                                alt="logo" class="rounded-circle z-depth-0" style="width:40px;">
+        
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        
+    </body>
+</html>
+
